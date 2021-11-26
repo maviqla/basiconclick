@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>onClick</title>
+
+</head>
+
+<body id="container">
+
+    <h1>SOMETHINGFLIX</h1>
+
+    <div id="onlybox">
+
+        <div>
+            <h3>Marque outros conteúdos além de filmes e séries para serem implementados:</h3>
+            <ul>
+                <li><input type="checkbox" /> Cortes do TikTok</li>
+                <li><input type="checkbox" /> Vídeos-Ensaio</li>
+                <li><input type="checkbox" /> Vídeo-aula</li>
+                <li><input type="checkbox" /> Lifehacks</li>
+                <li><input type="checkbox" /> Esquetes</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Escolha um dos nome a seguir como a tradução mais apropriada para o SomethingFlix:</h3>
+            <ul>
+                <li><input type="radio" name="name" />AlgoFlix</li>
+                <li><input type="radio" name="name" />QualquerFlix</li>
+                <li><input type="radio" name="name" />AlgumFlix</li>
+                <li><input type="radio" name="name" />AmálgamaFlix</li>
+                <li><input type="radio" name="name" />GenéricoFlix</li>
+            </ul>
+            <h3> Caso queira, sugir um nome</h3>
+            <input type="text" value="Sugira aqui">
+        </div>
+
+        <div>
+            <h3>Você sente o sentimento "satisfação" quando utiliza o SomethingFlix?</h3>
+            <p><input type="radio" name="satisf" />Sim</p>
+            <p><input type="radio" name="satisf" />Não</p>
+        </div>
+        <input onclick="submeterReply()"  type="submit" value="Submit">
+        <div id="subMensagem"></div>
+        
+    </div>
+
+    
+
+
+    <div id="empty"></div>
+
+    <div id="foot">Este site é 100% original e com 100% de certeza o primeiro Flix que existe.</div>
+
+
+</body>
+
+<script src="onclick.js"></script>
+
+</html>
